@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Landing Page </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="header">
-        <div class="h_container">
-            <div class="headerlogo">Header Logo</div>
-            <ul>
-                <li><a class="h_link" href="#">Our Work</a></li>
-                <li><a class="h_link" href="#">Contact Us</a></li>
-                <li><a class="h_link" href="#">Blog</a></li>
-            </ul>
-    </div>
-    </div>
     <div class="hero">
-        <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p class="hero-body">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="herobtn">Sign Up</button>
-        </div>
-        <div class="hero-img">
-            <a>This is a placeholder</a>
+        <div class="hero-container">
+            <div class="item-hero header">
+                <div class="logo">Header Logo</Header>
+                </div>
+                <ol class="links">
+                    <li class="one"><a href="#">header link one</a></li>
+                    <li class="two"><a href="#">header link two</a></li>
+                    <li class="three"><a href="#">header link three</a></li>
+                </ol>
+            </div>
+            <div class="item-hero content">
+                <div class="item-content texts">
+                    <div class="main-text">
+                        This website is awsome
+                    </div>
+                    <div class="secondary-text">
+                        This website has some subtext that goes here under the main title. It's a smaller font and the
+                        color is lower contrast
+                    </div>
+                    <button class="sign-up">Sign up</button>
+                </div>
+                <div class="item-content image">
+                    this is placeholder for an iamge
+                </div>
+            </div>
         </div>
     </div>
-    
-            <div class="section-two">
-                <h2>Some random information.</h2>
-                <div class="container-images">
-                    <div class="infoimages">
-                                        <div class="info-img"></div>
-                        <p id="infodescription">this is some subtext under an illustration or image</p></a>
-                    </div>
-                                        <div class="infoimages">
-                        <div class="info-img"></div>
-                        <p id="infodescription">this is some subtext under an illustration or image</p></a>
-                    </div>
-                                        <div class="infoimages">
-                        <div class="info-img"></div>
-                        <p id="infodescription">this is some subtext under an illustration or image</p></a>
-                    </div>
-                                        <div class="infoimages">
-                        <div class="info-img"></div>
-                        <p id="infodescription">this is some subtext under an illustration or image</p></a>
-                    </div>
-                    </div>
-                </div>
 
-                <div class="section-three">
-                    <div class="inspiring-quote">
-                        <div class="quote-text">
-                            <p id="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-                    </div>
-                    <div class="quote-author">
-                        <p id="thor">-Thor, God of Thunder</p>
+    <div class="info">
+        <div class="info-container">
+            <div class="info-header">Some random information.</div>
+            <div class="info-content">
+                <div class="item">
+                    <div class="img"></div>
+                    <div class="img-info">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="item">
+                    <div class="img"></div>
+                    <div class="img-info">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="item">
+                    <div class="img"></div>
+                    <div class="img-info">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="item">
+                    <div class="img"></div>
+                    <div class="img-info">this is some subtext under an illustration or image</div>
                 </div>
             </div>
         </div>
-        <div class="section-four">
-            <div class="CTA-container">
-                <div class="CTA-text">
-                    <h3>Call to action! It's time!</h3>
-                    <p id="cta">Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <button id="cta-btn">Sign up</button>
-            </div>
-        </div>
+    </div>
 
-        <div class="footer">
-            <div class="footer-text">
-                <p>Copyright © The Odin Project 2021</p>
+    <div class="quote">
+        <div class="quote-container">
+            <div class="quote-text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+                people will actually read it. Who knows? All I know is that it looks nice.
             </div>
+            <div class="name">-Thor, God of Thunder</div>
         </div>
+    </div>
+
+    <div class="action">
+        <div class="action-container">
+            <div class="action-text">
+                <div class="primary-text">Call to action! It's time!</div>
+                <div class="sign-up-text">Sign up for our product by clicking the button right over there!</div>
+            </div>
+            <button class="sign-up">Sign up</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            Copyright &copy; The Odin Project 2025
+        </div>
+    </div>
 </body>
-</html>
 
+</html>
